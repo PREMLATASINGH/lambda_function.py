@@ -13,3 +13,5 @@ even=lambda num:num%2==0
 print(even(4))
 addition=lambda a,b,c:a+b+c
 print(addition(1,2,3))
+odd=lambda num:num%2!=0
+print(odd(5))
