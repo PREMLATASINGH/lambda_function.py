@@ -16,3 +16,7 @@ print(addition(1,2,3))
 odd=lambda num:num%2!=0
 print(odd(5))
 print(odd(4))
+number=[1,2,3,4,5,6,7,8,9,10]
+map_object=map(lambda x:x**2,number)
+squared_numbers=list(map_object)    
+print(squared_numbers)
