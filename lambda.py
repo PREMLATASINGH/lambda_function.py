@@ -9,3 +9,5 @@ print(subtract(5,2))
 add=lambda a,b:a+b
 print(type(add))
 print(add(2,3))
+even=lambda num:num%2==0
+print(even(4))
