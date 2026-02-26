@@ -28,3 +28,5 @@ print(leap_year(2021))
 palidrome=lambda s:s==s[::-1]
 print(palidrome("madam"))
 print(palidrome("hello"))
+fabionacci=lambda n: n if n<=1 else fabionacci(n-1)+fabionacci(n-2)
+print(fabionacci(10))
