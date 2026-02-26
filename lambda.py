@@ -20,3 +20,5 @@ number=[1,2,3,4,5,6,7,8,9,10]
 map_object=map(lambda x:x**2,number)
 squared_numbers=list(map_object)    
 print(squared_numbers)
+subtract=lambda a,b:a-b
+print(subtract(10,5))
