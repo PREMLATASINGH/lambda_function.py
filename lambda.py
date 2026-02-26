@@ -27,3 +27,4 @@ print(leap_year(2020))
 print(leap_year(2021))
 palidrome=lambda s:s==s[::-1]
 print(palidrome("madam"))
+print(palidrome("hello"))
