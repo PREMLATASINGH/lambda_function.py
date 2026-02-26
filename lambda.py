@@ -24,3 +24,4 @@ subtract=lambda a,b:a-b
 print(subtract(10,5))
 leap_year=lambda year:(year%4==0 and year%100!=0) or (year%400==0)
 print(leap_year(2020))
+print(leap_year(2021))
