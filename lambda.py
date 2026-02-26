@@ -34,3 +34,5 @@ print(fabionacci(15))
 amstrong=lambda num: sum(int(digit)**3 for digit in str(num))==num
 print(amstrong(153))
 print(amstrong(123))
+random=lambda: __import__('random').randint(1,100)
+print(random())
