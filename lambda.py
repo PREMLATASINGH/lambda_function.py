@@ -31,3 +31,5 @@ print(palidrome("hello"))
 fabionacci=lambda n: n if n<=1 else fabionacci(n-1)+fabionacci(n-2)
 print(fabionacci(10))
 print(fabionacci(15))
+amstrong=lambda num: sum(int(digit)**3 for digit in str(num))==num
+print(amstrong(153))
